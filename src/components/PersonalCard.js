@@ -9,11 +9,13 @@ const PersonalCard = (props) => {
       <div className="card-header">
         <img src={avatar} alt={name} className="avatar" />
         <h2 className="profession">{profession}</h2>
+        <h2 className="name">{name}</h2>
       </div>
       
       <div className="card-body">
         <div className="section">
           <h3>Sobre mí</h3>
+          <h2 className="bio">{bio}</h2>
         </div>
         
         <div className="section">
@@ -27,14 +29,18 @@ const PersonalCard = (props) => {
         
         <div className="section">
           <h3>Contacto</h3>
+          <h2 className="name">{name}</h2>
           <p className="contact-info">
             <strong>Email:</strong>
+            <h2 className="email">{email}</h2>
           </p>
           <p className="contact-info">
             <strong>Teléfono:</strong>
+            <h2 className="phone">{phone}</h2>
           </p>
           <p className="contact-info">
-            <strong>Ubicación:</strong> 
+            <strong>location:</strong> 
+            <h2 className="email">{email}</h2>
           </p>
         </div>
       </div>

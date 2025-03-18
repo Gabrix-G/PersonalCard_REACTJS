@@ -5,18 +5,18 @@ import PersonalCard from './components/PersonalCard';
 function App() {
   // Datos personales que serán pasados como props
   const personalInfo = {
-    name: "Carlos Rodríguez",
+    name: "Gabriel ALexander",
     profession: "Desarrollador Web",
-    email: "carlos@example.com",
-    phone: "+1 234 567 890",
-    location: "Ciudad de México",
+    email: "gaboquintana10@example.com",
+    phone: "76867102",
+    location: "El salvador",
     avatar: "/profile-picture.jpg", // Coloca una imagen en la carpeta public
-    bio: "Desarrollador web con 5 años de experiencia en tecnologías frontend y backend. Apasionado por crear interfaces intuitivas y soluciones eficientes.",
+    bio: "Desarrollador web. Apasionado por crear interfaces intuitivas y soluciones eficientes.",
     skills: ["React", "JavaScript", "HTML", "CSS", "Node.js"],
     social: {
-      github: "https://github.com/carlosrodriguez",
-      linkedin: "https://linkedin.com/in/carlosrodriguez",
-      twitter: "https://twitter.com/carlosrodriguez"
+      github: "https://github.com",
+      linkedin: "https://linkedin.com",
+      twitter: "https://twitter.com"
     }
   };
 
